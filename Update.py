@@ -70,7 +70,7 @@ def Check_List_for_Updates():
 				Mangalist[i][0] = Results[2]
 				Mangalist[i][2] = Results[1]
 				with open("Update.txt", "a") as file:
-					file.write(Results)
+					file.write(str(Results))
 
 		with open("Mangalist.csv", "w", newline="") as f:
 			writer = csv.writer(f)
