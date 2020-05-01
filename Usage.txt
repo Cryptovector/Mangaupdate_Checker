@@ -1,0 +1,7 @@
+Update.py -S -T 3600              #Check List by Startup all 3600 seconds
+Update.py -E -T 60 		  #Checklist all 60 Seconds
+Update.py -A -D "88" -N "Berserk" #Add manga to Mangalist for Checkup [https://www.mangaupdates.com/series.html?id=88 == BERSERK]
+Update.py -I 		          #Init List for Checkup
+Update.py 			  #Checkup
+
+If you want to edit Manga from the list --> Mangalist.csv
